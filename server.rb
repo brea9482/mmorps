@@ -90,11 +90,10 @@ end
 
 get '/winner' do
   session[:gameplay]
-
   session[:human]
   session[:computer]
-
   session[:winner]
+
   erb :show
 end
 
